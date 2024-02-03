@@ -65,3 +65,13 @@ margin-top: 5px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
   cursor: pointer; /* Change cursor to indicate clickability */
 }
+.carousel-caption {
+  position: absolute; /* Positioned within the slide */
+  bottom: 20px; /* Adjust vertical position as needed */
+  left: 0;
+  right: 0;
+  text-align: center; /* Centered text */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  padding: 20px;
+}
